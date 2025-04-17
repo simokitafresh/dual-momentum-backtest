@@ -15,6 +15,18 @@ dependencies = [
     "pandas",
     "numpy",
     "pandas-market-calendars",
+    "geopandas",
+    "matplotlib",
+    "matplotlib-inline",
+    "matplotlib-venn",
+    "pandas-datareader",
+    "pandas-gbq",
+    "pandas-stubs",
+    "scipy",
+    "sklearn-pandas",
+    "tqdm",
+    "yfinance",
+
 ]
 
 [tool.setuptools]
