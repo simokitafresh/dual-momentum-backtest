@@ -1,0 +1,14 @@
+geopandas==1.0.1
+matplotlib==3.10.0
+matplotlib-inline==0.1.7
+matplotlib-venn==1.1.2
+numpy==2.0.2
+pandas==2.2.2
+pandas-datareader==0.10.0
+pandas-gbq==0.28.0
+pandas-stubs==2.2.2.240909
+pandas_market_calendars==5.0.0
+scipy==1.14.1
+sklearn-pandas==2.2.0
+tqdm==4.67.1
+yfinance==0.2.55
