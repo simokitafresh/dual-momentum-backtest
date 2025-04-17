@@ -1,0 +1,21 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+
+# === Colab / Jupyter ===
+.ipynb_checkpoints/
+.DS_Store
+
+# === Data / Cache (プロジェクト固有) ===
+data/
+*.csv
+*.xlsx
+*.hdf5
+*.pkl
+
+# === VS Code ===
+.vscode/
+
+# === Environment ===
+.env
