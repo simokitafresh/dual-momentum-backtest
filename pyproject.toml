@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dual-momentum"
+version = "0.1.0"
+description = "Dual Momentum back‑test toolkit"
+readme = "README.md"
+requires-python = ">=3.9"
+
+# requirements.txt の中身を列挙してもいいし、
+# とりあえず空でも動きます（あとで追記可）
+dependencies = []
+
+[tool.setuptools]
+# src レイアウトを使う
+package-dir = {"" = "src"}
+packages = ["dual_momentum"]
