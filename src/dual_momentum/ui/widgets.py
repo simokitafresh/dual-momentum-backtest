@@ -1,3 +1,9 @@
+# dual_momentum/ui/widgets.py の先頭に追加
+from datetime import datetime
+import ipywidgets as widgets
+
+# 既存のコード...
+
 def create_year_month_picker(year_value, month_value, description):
     """年と月を選択するカスタムウィジェットを作成"""
     today = datetime.now()
