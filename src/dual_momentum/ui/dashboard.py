@@ -1,3 +1,15 @@
+# dual_momentum/ui/dashboard.py の先頭に追加
+from dual_momentum.core.model import DualMomentumModel
+from datetime import datetime
+import ipywidgets as widgets
+from IPython.display import display, HTML, clear_output
+import calendar
+import json
+import os
+from dual_momentum.validators.input import InputValidator
+
+# 既存のコード...
+
 def create_dual_momentum_ui():
     model = DualMomentumModel()
     today = datetime.now()
